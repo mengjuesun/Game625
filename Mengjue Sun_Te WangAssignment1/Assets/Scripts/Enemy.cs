@@ -39,6 +39,7 @@ public class Enemy : MonoBehaviour
         name = mName;
     }
 
+
     void Update()
     {
         transform.Translate(-Time.deltaTime * Vector3.up * 2);

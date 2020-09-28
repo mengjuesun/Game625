@@ -11,6 +11,7 @@ public class WinOrLose : MonoBehaviour
     public Text winText;
     public Text loseText;
     public int count;
+  
 
     private void Awake()
     {
@@ -27,6 +28,7 @@ public class WinOrLose : MonoBehaviour
 
         winText.text = "";
         loseText.text = "";
+        
     }
 
     // Update is called once per frame
